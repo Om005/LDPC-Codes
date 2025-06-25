@@ -14,7 +14,8 @@ LDPC_Project/
 │
 │── NR_1_5_352.txt
 │── NR_2_6_52.txt
-├── ldpc_simulation.m            # Main simulation script
+├── Soft_Decision.m            # Hard decision simulation script
+├── Hard_Decision.m            # Soft decision simulation script
 ├── nr5g_encoder.m               # LDPC encoder function
 ├── nrldpc_Hmatrix.m            # Base matrix loader and lifting to full H matrix
 ├── mul_sh.m                    # Identity matrix shifter
@@ -83,11 +84,11 @@ LDPC-encoded bits are modulated using BPSK and passed through an AWGN channel.
 
 ## 🚀 Running the Simulation
 
-1. Place `NR_2_6_52.txt` and `NR_1_5_352.txt` inside `base_matrices/` directory.
-2. Run `ldpc_simulation.m`.
+1. Place `NR_2_6_52.txt` and `NR_1_5_352.txt`.
+2. Run `m`.
 
 ```matlab
->> ldpc_simulation
+>> Hard_Decision
 ```
 
 3. Observe multiple figures showing error performance metrics.
