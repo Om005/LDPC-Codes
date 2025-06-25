@@ -39,14 +39,6 @@ LDPC_Project/
 
 ---
 
-## 📌 Prerequisites
-
-- MATLAB (R2020a or newer recommended)
-- Base matrix `.txt` files placed inside `base_matrices/` folder
-- No additional toolbox required
-
----
-
 ## 🔢 How It Works
 
 ### 1. **Base Matrix and Lifting**
@@ -86,11 +78,6 @@ LDPC-encoded bits are modulated using BPSK and passed through an AWGN channel.
 - Shannon Limit (theoretical bound)
 - Normal Approximation (finite block length)
 
----
-
-## 📈 Example Output
-
-*(You can add screenshots of your simulation results here)*
 
 ---
 
