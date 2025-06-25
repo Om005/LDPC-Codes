@@ -1,3 +1,6 @@
+## 🚀 Quick Access
+[![Portfolio](https://img.shields.io/badge/Visit-Portfolio-blue?style=for-the-badge)](https://www.om-chavda.me)
+
 # LDPC Encoder and Decoder Simulator (5G NR Standard-Based)
 
 This project implements a 5G NR-compatible LDPC (Low-Density Parity Check) encoder and decoder in MATLAB, supporting **both hard-decision and soft-decision decoding**. It simulates error performance over an **AWGN (Additive White Gaussian Noise)** channel across multiple coderates and provides detailed performance plots.
